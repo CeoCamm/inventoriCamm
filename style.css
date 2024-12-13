@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+QWidget {
+    color: #fff;
+    background-color: #444444;
+}
+
+QWidget#LoginWindow {
+    background-color: #f0f0f0;
+}
+
+QLineEdit#UsernameInput, QLineEdit#PasswordInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #fff; 
+    color: #000; 
+}
+
+QPushButton#LoginButton {
+    padding: 10px 20px;
+    background-color: #16b12b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QPushButton#LoginButton:hover {
+    background-color: #16b12b;
+}
+
+
+QWidget#DashboardWindow {
+    background-color: #f0f0f0;
+}
+
+QTableWidget {
+    background: #ffffff;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+QHeaderView::section {
+    background-color: #16b12b;
+    color: white;
+    padding: 10px;
+}
+
+QTableWidget QTableCornerButton::section {
+    background-color: #16b12b;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+QTableWidget::item:selected {
+    background-color: #318f1e;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+QTableWidget::item {
+    padding: 10px;
+}
+
+QPushButton {
+    padding: 8px 15px;
+    background-color: #16b12b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #218a01;
+}
+
+
+QWidget#ProductFormWindow {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+QLineEdit, QDoubleSpinBox {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QLabel {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: transparent; 
+}
+
+QPushButton#SaveButton {
+    padding: 10px 20px;
+    background-color: #16b12b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QPushButton#SaveButton:hover {
+    background-color: #218a01;
+}
+
+/* QMessageBox */
+QMessageBox {
+    background-color: #444444;
+    color: #fff;
+}
+
+QMessageBox QLabel {
+    color: #fff;
+    background-color: transparent; 
+}
